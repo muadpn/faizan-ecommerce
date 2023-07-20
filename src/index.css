@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+}
+.text-primary {
+  /** TEXT GRADIENT */
+  color: #2ce292;
+  background-image: -webkit-linear-gradient(
+    135deg,
+    #00000035 0%,
+    #00000047 47%,
+    #000000 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+p{
+    max-width: 480px;
+}
+
+h{
+    max-width: 550px;
+}
